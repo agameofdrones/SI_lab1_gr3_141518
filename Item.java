@@ -12,7 +12,8 @@ class Item {
 		this.price = price;
 		this.taxType = taxType;
 	}
-
+	
+	// TODO setters and getters
 	int getId() {
 		return id;
 	}
@@ -29,24 +30,23 @@ class Item {
 		return taxType;
 	}
 
-	int setId(int id) {
-		return this.id = id;
+	void setId(int id) {
+		this.id = id;
 	}
 
-	String setName(String name) {
-		return this.name = name;
+	void setName(String name) {
+		this.name = name;
 	}
 
-	double setPrice(double price) {
-		return this.price = price;
+	void setPrice(double price) {
+		this.price = price;
 	}
 
-	int setTaxType(int taxType) {
-		return this.taxType = taxType;
+	void setTaxType(int taxType) {
+		this.taxType = taxType;
 	}
-	// TODO setters and getters
 
-	double taxReturn() {
-		// TODO
+	double getTaxReturn() {
+		return price * 0.15;
 	}
 }
