@@ -2,14 +2,14 @@ class Item {
 	int id;
 	String name;
 	double price;
+	// TODO add variable.
+	int taxType;
 
-	//TODO add variable.
+	// TODO constructor
 
-	//TODO constructor
+	// TODO setters and getters
 
-	//TODO setters and getters
-
-	double taxReturn () {
-		//TODO
+	double taxReturn() {
+		// TODO
 	}
 }
